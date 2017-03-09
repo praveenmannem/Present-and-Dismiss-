@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BlueViewController.h
 //  presentDismiss
 //
 //  Created by Praveen on 2017-03-02.
@@ -7,11 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "GreenViewController.h"
+#import "RedViewController.h"
 
-@interface ViewController : UIViewController
-
-- (IBAction)vcButton:(UIButton *)sender;
+@interface BlueViewController : UIViewController
+- (IBAction)blueButton:(UIButton *)sender;
 
 @end
-

@@ -15,6 +15,10 @@
 		AC6F2D871E68BC040018DA38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6F2D851E68BC040018DA38 /* LaunchScreen.storyboard */; };
 		AC6F2D921E68BC040018DA38 /* presentDismissTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6F2D911E68BC040018DA38 /* presentDismissTests.m */; };
 		AC6F2D9D1E68BC040018DA38 /* presentDismissUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6F2D9C1E68BC040018DA38 /* presentDismissUITests.m */; };
+		AC6F2DAC1E68BDD80018DA38 /* GreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6F2DAB1E68BDD80018DA38 /* GreenViewController.m */; };
+		AC6F2DAF1E68BE070018DA38 /* YellowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6F2DAE1E68BE070018DA38 /* YellowViewController.m */; };
+		AC6F2DB21E68BE2C0018DA38 /* BlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6F2DB11E68BE2C0018DA38 /* BlueViewController.m */; };
+		AC6F2DB51E68BE610018DA38 /* RedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6F2DB41E68BE610018DA38 /* RedViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		AC6F2D981E68BC040018DA38 /* presentDismissUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = presentDismissUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC6F2D9C1E68BC040018DA38 /* presentDismissUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = presentDismissUITests.m; sourceTree = "<group>"; };
 		AC6F2D9E1E68BC040018DA38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC6F2DAA1E68BDD80018DA38 /* GreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenViewController.h; sourceTree = "<group>"; };
+		AC6F2DAB1E68BDD80018DA38 /* GreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenViewController.m; sourceTree = "<group>"; };
+		AC6F2DAD1E68BE070018DA38 /* YellowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YellowViewController.h; sourceTree = "<group>"; };
+		AC6F2DAE1E68BE070018DA38 /* YellowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YellowViewController.m; sourceTree = "<group>"; };
+		AC6F2DB01E68BE2C0018DA38 /* BlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueViewController.h; sourceTree = "<group>"; };
+		AC6F2DB11E68BE2C0018DA38 /* BlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueViewController.m; sourceTree = "<group>"; };
+		AC6F2DB31E68BE610018DA38 /* RedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedViewController.h; sourceTree = "<group>"; };
+		AC6F2DB41E68BE610018DA38 /* RedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +118,14 @@
 				AC6F2D7D1E68BC040018DA38 /* ViewController.h */,
 				AC6F2D7E1E68BC040018DA38 /* ViewController.m */,
 				AC6F2D801E68BC040018DA38 /* Main.storyboard */,
+				AC6F2DB31E68BE610018DA38 /* RedViewController.h */,
+				AC6F2DB41E68BE610018DA38 /* RedViewController.m */,
+				AC6F2DB01E68BE2C0018DA38 /* BlueViewController.h */,
+				AC6F2DB11E68BE2C0018DA38 /* BlueViewController.m */,
+				AC6F2DAD1E68BE070018DA38 /* YellowViewController.h */,
+				AC6F2DAE1E68BE070018DA38 /* YellowViewController.m */,
+				AC6F2DAA1E68BDD80018DA38 /* GreenViewController.h */,
+				AC6F2DAB1E68BDD80018DA38 /* GreenViewController.m */,
 				AC6F2D831E68BC040018DA38 /* Assets.xcassets */,
 				AC6F2D851E68BC040018DA38 /* LaunchScreen.storyboard */,
 				AC6F2D881E68BC040018DA38 /* Info.plist */,
@@ -273,6 +293,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC6F2DAC1E68BDD80018DA38 /* GreenViewController.m in Sources */,
+				AC6F2DB51E68BE610018DA38 /* RedViewController.m in Sources */,
+				AC6F2DAF1E68BE070018DA38 /* YellowViewController.m in Sources */,
+				AC6F2DB21E68BE2C0018DA38 /* BlueViewController.m in Sources */,
 				AC6F2D7F1E68BC040018DA38 /* ViewController.m in Sources */,
 				AC6F2D7C1E68BC040018DA38 /* AppDelegate.m in Sources */,
 				AC6F2D791E68BC030018DA38 /* main.m in Sources */,

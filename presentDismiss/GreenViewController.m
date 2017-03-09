@@ -1,0 +1,50 @@
+//
+//  GreenViewController.m
+//  presentDismiss
+//
+//  Created by Praveen on 2017-03-02.
+//  Copyright © 2017 Praveen. All rights reserved.
+//
+
+#import "GreenViewController.h"
+
+@interface GreenViewController ()
+
+@end
+
+@implementation GreenViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    self.view.backgroundColor =[UIColor greenColor];
+    
+    self.navigationController.navigationBarHidden = NO;
+    // Do any additional setup after loading the view.
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
+
+- (IBAction)greenButton:(UIButton *)sender {
+    
+    UIStoryboard *storyBoard =[UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    
+    YellowViewController *yvc =[storyBoard instantiateViewControllerWithIdentifier:@"yellow"];
+    
+    [self presentViewController:yvc animated:YES completion:^{
+    }];
+}
+@end
